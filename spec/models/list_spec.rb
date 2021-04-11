@@ -1,8 +1,9 @@
-#frozen_string_literal: true
+# frozen_string_literal: true
 
-require'rails_helper'
- 
+require 'rails_helper'
+
 describe 'モデルのテスト' do
   it "有効な投稿内容は保存されるか" do
     expect(FactoryBot.build(:list)).to be_vaild
-end 
+  end
+end
